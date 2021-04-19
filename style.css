@@ -1,0 +1,848 @@
+body {
+    font-family: Livvic, sans-serif;
+}
+
+.btn:focus {
+    box-shadow: none;
+    border: none;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border: none;
+}
+
+textarea:focus {
+    outline: none;
+}
+
+.btn:hover {
+    color: inherit;
+}
+
+.form-control:hover {
+    color: inherit;
+}
+
+a {
+    text-decoration: none;
+    transition: all 0.8s ease 0s;
+    display: inline-block;
+    color: black;
+}
+
+a:hover {
+    color: inherit;
+}
+
+img {
+    max-width: 100%;
+}
+
+.commonbtn {
+    color: white;
+    font-weight: 600;
+    padding: 16px 41px;
+    background: linear-gradient(220deg, rgb(242, 124, 30), rgb(221, 76, 35));
+}
+
+.commonbtn:hover {
+    background: linear-gradient(46deg, rgb(242, 124, 30) 0%, rgb(221, 76, 35) 79%);
+    color: white;
+}
+
+.comoncolor {
+    background: rgb(246, 247, 249);
+}
+
+.padding {
+    padding: 100px 0px;
+}
+
+.header {
+    background: linear-gradient(100deg, rgb(3, 34, 143) 34%, rgb(14, 115, 228) 100%);
+}
+
+
+
+.header2 a img {
+    width: 120px;
+}
+
+
+.menu ul {
+    margin-right: 90px;
+}
+
+.content1 {
+    padding: 225px 0px;
+}
+
+.menu ul li a:hover {
+    color: rgb(160, 167, 194);
+}
+
+.menu ul li a {
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    display: inline-block;
+    padding: 0px 25px;
+}
+
+
+.headerright a {
+    color: white;
+}
+
+
+
+.amination {
+    background: white;
+    padding: 28px 35px;
+    border-radius: 50%;
+    color: rgb(3, 34, 143);
+    display: inline-block;
+    margin-bottom: 80px;
+    position: relative;
+}
+.amination::before{
+    content: "";
+    animation: example 1.6s cubic-bezier(0.53, 0.51, 0.59, 0.58) 0s infinite normal none running;
+    position: absolute;
+    border-radius: 50%;
+    left: 8px;
+    top: 6px;
+    height: 70px;
+    width: 70px;
+}
+@keyframes example {
+    0% {
+        border: 1px solid white;
+        transform: scale(1);
+    }
+    
+
+    25% { border: 1px solid rgba(255, 255, 255, 0.801); transform: scale(1.5);}
+
+    50% { border: 1px solid rgba(255, 255, 255, 0.596); transform: scale(2);}
+
+    75% { border: 1px  solid rgba(255, 255, 255, 0.322); transform: scale(2.5);}
+
+    100% { border: 1px  solid rgba(255, 255, 255, 0); transform: scale(3);}
+}
+
+.content1 h1 {
+    font-weight: 600;
+}
+
+.content1 p {
+    font-size: 18px;
+}
+
+
+
+.content2 img {
+    margin: 70px 0px;
+}
+
+.coundiv h5 {
+    width: 50%;
+    font-weight: 500;
+    padding: 27px 26px;
+}
+
+.content7 {
+    padding: 40px 43px;
+    box-shadow: rgba(92, 136, 236, 0.16) 0px 0px 15px 0px;
+    margin-top: 30px;
+    border-radius: 10px;
+    transition: all 0.8s ease 0s;
+   
+}
+
+.content7 img {
+    padding: 29px 0px;
+    width: 85px;
+}
+.img2{
+    top: 12%;
+    left: 12%;
+    visibility: hidden;
+    opacity: 0;
+    transition: .8s;
+   
+}
+.content7:hover .img2{
+    visibility: visible;
+    opacity: 1;
+}
+
+
+.content7 h5 {
+    font-weight: 600;
+}
+
+
+.comontext h6 {
+    color: rgb(27, 68, 165);
+    position: relative;
+    left: 129px;
+    display: inline-block;
+}
+
+.comontext h6::before {
+    position: absolute;
+    content: "";
+    width: 18px;
+    height: 4px;
+    top: 8px;
+    left: -126px;
+    background: rgb(253, 102, 10);
+}
+
+.comontext h6::after {
+    position: absolute;
+    content: "";
+    width: 64px;
+    height: 4px;
+    top: 8px;
+    left: -95px;
+    background: rgb(253, 102, 10);
+}
+
+
+
+.comontext p {
+    line-height: 35px;
+    font-size: 19px;
+}
+
+.content7:hover {
+    color: white;
+    background: rgb(253, 102, 10);
+}
+
+.content7:hover i {
+    color: white !important;
+}
+
+.coundiv b {
+    color: rgb(253, 101, 9);
+    display: block;
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+
+
+
+.coundiv h5:nth-child(2) b {
+    color: rgb(3, 34, 143);
+}
+
+.color2 {
+    color: rgb(41, 214, 245) !important;
+}
+
+.color3 {
+    color: rgb(245, 194, 39) !important;
+}
+
+.color4 {
+    color: rgb(52, 75, 229) !important;
+}
+
+.onlymargin {
+    margin-top: 90px;
+}
+
+.hover2:hover {
+    background: rgb(245, 190, 24);
+}
+
+.hover3:hover {
+    background: rgb(20, 210, 245);
+}
+
+.hover4:hover {
+    background: rgb(44, 68, 228);
+}
+
+
+
+.conrnt777 img {
+    width: 582px;
+}
+
+.progress {
+    margin-top: 2px;
+    height: 8px;
+}
+
+.fasydiv {
+    margin-bottom: 32px;
+}
+
+.color11 {
+    background-color: rgb(237, 79, 36);
+}
+
+.color12 {
+    background-color: rgb(3, 222, 168);
+}
+
+.color13 {
+    background-color: rgb(240, 6, 116);
+}
+
+.helper a {
+    margin-top: 35px;
+}
+
+.service {
+    background: rgb(246, 247, 249);
+}
+
+.contrnt2w2 {
+    border-radius: 10px;
+    transition: .8s;
+}
+
+.contrnt2w2 b {
+    top: 5%;
+    left: 65%;
+    font-size: 76px;
+    opacity: 0.2;
+}
+
+.contrnt2w2 h5 {
+    font-weight: 600;
+}
+
+.contrnt2w2 img {
+    width: 90px;
+    margin-bottom: 35px;
+}
+.img44{
+    top: 14%;
+    left: 12%;
+    visibility: hidden;
+    opacity: 0;
+    transition: .8s;
+}
+.contrnt2w2:hover .img44{
+    visibility: visible;
+    opacity: 1;
+}
+
+.content99i h1 {
+    font-weight: 700;
+}
+
+.content99i h6 {
+    color: rgb(86, 163, 213);
+}
+
+.contrnt2w2:hover {
+    color: white;
+    background: rgb(253, 102, 10) !important;
+}
+
+.hobrehhh:hover {
+    background: rgb(19, 225, 175) !important;
+}
+
+.hobrehhfh:hover {
+    background: rgb(243, 8, 118) !important;
+}
+
+.hobreaahhfh:hover {
+    background: rgb(44, 68, 228) !important;
+}
+
+.hreaahhfh:hover {
+    background: rgb(5, 219, 238) !important;
+}
+
+.hreaahxhfh:hover {
+    background: rgb(10, 153, 253) !important;
+}
+
+
+
+.contentee img {
+    width: 600px;
+}
+
+
+
+.sotofast img {
+    width: 90px;
+    margin-right: 25px;
+}
+
+
+.sotolast h5 {
+    font-weight: 600;
+    padding-top: 15px;
+    transition: all 0.8s ease 0s;
+}
+
+.sotolast h5:hover {
+    color: rgb(11, 112, 225);
+}
+
+.sotolast p {
+    font-size: 20px;
+}
+
+.onlujh {
+    width: 80px !important;
+}
+
+.imgdibss {
+    background: url("./img/ia_200000180.png") 38px 9px / contain no-repeat;
+}
+
+.imgdibss a img {
+    border-radius: 50%;
+    width: 100%;
+    transition: all 0.8s ease 0s;
+}
+
+.imgdibss a {
+    width: 350px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.content55kk h1 {
+    font-weight: 700;
+}
+
+.content199g {
+    padding: 70px 0px;
+}
+
+.content199g h4 {
+    font-weight: 600;
+    padding-top: 50px;
+}
+
+.content199g h6 {
+    padding: 10px 0px;
+}
+
+.content199g a i {
+    font-size: 23px;
+    padding: 6px 14px;
+    color: black;
+}
+
+.teams {
+    background: rgb(245, 245, 245);
+}
+
+.content199g:hover .imgdibss a img {
+    transform: scale(1.3);
+}
+
+.hoverfiv44 {
+    top: 90%;
+    left: 10%;
+    transition: all 0.8s ease 0s;
+    visibility: hidden;
+    opacity: 0;
+    width: 340px;
+}
+
+.content44oiu:hover .hoverfiv44 {
+    top: 50%;
+    visibility: visible;
+    opacity: 1;
+}
+
+.contentp0 h1 {
+    padding: 0px 268px;
+}
+
+.div112 {
+    margin-top: 11px;
+    width: 65px;
+}
+
+.div112 i {
+    font-size: 54px;
+}
+
+
+
+.div11 h4 {
+    font-weight: 600;
+    transition: all 0.8s ease 0s;
+}
+
+.div11 h6 {
+    margin-top: 19px;
+    font-size: 20px;
+}
+
+.fasti2 {
+    color: rgb(90, 149, 246);
+}
+
+.fasti3 {
+    color: rgba(240, 142, 53, 0.77);
+}
+
+.fasti {
+    color: rgba(23, 25, 210, 0.61);
+}
+
+.div11 h4:hover {
+    color: rgb(11, 112, 225);
+}
+
+.formdiv {
+    padding: 42px 40px;
+    width: 79%;
+    margin: auto;
+}
+
+.formdiv input {
+    background: rgb(246, 247, 249);
+    margin: 20px 0px;
+    padding: 17px 18px;
+}
+
+.formdiv a {
+    display: block;
+}
+
+.formdiv button a {
+    display: block;
+}
+
+.formdiv h3 {
+    font-weight: 700;
+}
+
+
+.formdiv .form-control:focus {
+    background: rgb(246, 247, 249);
+}
+
+.contenm22e {
+    padding: 0px 420px;
+}
+
+.contenm22e p {
+    font-size: 20px;
+    padding-bottom: 45px;
+}
+
+.contjh88e {
+    transition: all 0.8s ease 0s;
+    box-shadow: rgb(227 235 249) 6px 6px 20px 0px;
+}
+
+.contjh88 {
+    padding: 0px 27px 35px;
+}
+
+
+
+.contjh88 a {
+    color: rgb(44, 56, 93);
+    font-weight: 700;
+    transition: all 0.8s ease 0s;
+}
+
+.contjh88 span {
+    margin-right: 53px;
+    padding: 19px 0px;
+    display: inline-block;
+}
+
+.contjh88 span i {
+    margin-right: 5px;
+}
+
+.contjh88 h3 {
+    font-weight: 600;
+    font-size: 26px;
+}
+
+.contjh88 p {
+    font-size: 19px;
+}
+
+
+
+.onlujjhbtn {
+    background: linear-gradient(90deg, rgb(3, 34, 143), rgb(78, 149, 237));
+    top: 49%;
+    right: 7%;
+    padding: 10px 29px;
+    color: white !important;
+}
+
+.onlujjhbtn:hover {
+    background: linear-gradient(90deg, rgb(78, 149, 237), rgb(3, 34, 143));
+}
+
+.contjh88 a i {
+    font-size: 14px;
+    margin-left: 4px;
+    transition: all 0.8s ease 0s;
+}
+
+.contjh88e:hover {
+    transform: translateY(-20px);
+}
+
+.contjh88 a:hover i {
+    transform: translateX(10px);
+}
+
+.contjh88 a:hover {
+    color: rgb(78, 149, 237);
+}
+
+
+
+.comadivss img {
+    margin-top: 67px;
+    margin-bottom: 30px;
+}
+
+.comadivss p {
+    font-size: 20px;
+    line-height: 42px;
+    margin-bottom: 48px;
+}
+
+
+
+.goling img {
+    margin: 0px;
+    width: 115px;
+}
+
+.biohis {
+    margin-top: 26px;
+    margin-left: 25px;
+}
+
+.biohis h4 {
+    font-weight: 600;
+}
+
+
+
+.husadcks img {
+    width: 591px;
+}
+
+.cntent33er {
+    background: linear-gradient(90deg, rgb(3, 34, 143), rgb(78, 149, 237));
+}
+
+.mofadi span {
+    background: white;
+    padding: 14px 17px;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.mofadi span i {
+    color: rgb(3, 34, 143);
+    font-size: 22px;
+}
+
+.mofadi2 h6 {
+    font-weight: 600 !important;
+}
+
+.mofadi2 a {
+    color: white;
+}
+
+.niodhdi {
+    margin: 45px 0px;
+}
+
+.cntent33er {
+    padding: 75px 31px !important;
+}
+
+.cntent33er h6 {
+    font-weight: 300;
+}
+
+.cntent33er h1 {
+    font-weight: 600;
+}
+
+
+
+.paradivds input {
+    padding: 19px 15px;
+    margin-bottom: 29px;
+    border: none;
+}
+
+.paradivds textarea {
+    width: 100%;
+    border: none;
+    padding: 19px 15px;
+    height: 198px;
+    margin-bottom: 29px;
+}
+
+.paradivds a {
+    padding: 17px 52px;
+}
+
+.mofadi {
+    width: 80px;
+}
+
+.formdiaa {
+    width: 90%;
+    margin: auto;
+}
+
+.formdiaa h1 {
+    padding: 12px 0px 42px;
+    font-weight: 600;
+}
+
+.totllasr {
+    background: rgb(1, 1, 107);
+}
+
+.mapdiv {
+    height: 600px;
+}
+
+.finalfooter {
+    background: url("./img/ia_200000181.png") center top / cover no-repeat;
+    padding-bottom: 0px !important;
+}
+
+
+
+.leftlogo img {
+    width: 200px;
+}
+
+.leftlogo p {
+    font-size: 20px;
+    line-height: 34px;
+    padding: 35px 0px 10px;
+}
+
+.leftlogo a {
+    background: white;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    line-height: 58px;
+    text-align: center;
+    margin-right: 14px;
+    transition: .8s;
+}
+
+.leftlogo a i {
+    font-size: 25px;
+}
+.leftlogo a:hover i{
+    color: white;
+}
+.leftlogo a:hover {
+   background: #106eea;
+}
+
+
+
+.xonatlii h4 {
+    font-weight: 600;
+    padding-bottom: 14px;
+}
+
+
+
+.xonatlii h6 a {
+    padding: 14px 0px;
+    transition: all 0.8s ease 0s;
+    font-size: 18px;
+}
+
+.xonatlii h6 a i {
+    margin-right: 18px;
+    font-size: 25px;
+    float: left;
+    color: rgb(30, 113, 234);
+}
+
+
+
+.contenlast h4 {
+    font-weight: 600;
+}
+
+.contenlast p {
+    font-size: 18px;
+    line-height: 30px;
+    margin: 32px 0px;
+}
+
+.contenlast input {
+    border-radius: 38px;
+    padding: 18px 23px;
+    width: 100%;
+}
+
+.contenlast a {
+    bottom: 61px;
+    left: 244px;
+    padding: 16px 18px;
+}
+
+.contenlast a i {
+    font-size: 22px;
+}
+
+.xonatlii h6 a:hover {
+    color: rgb(30, 113, 234);
+}
+
+.fstdicsaaa {
+    background: white;
+    padding: 10px 0px;
+    margin-top: 100px;
+}
+
+
+
+.footermanu ul {
+    list-style: none;
+}
+
+
+
+.footermanu ul li a {
+    padding: 8px 17px;
+    line-height: 26px;
+}
+
+.footermanu ul li a i {
+    font-size: 8px;
+    color: rgb(16, 110, 234);
+    margin-right: 41px;
+}
+
+.fstdicsaaa h5 {
+    line-height: 51px;
+}
